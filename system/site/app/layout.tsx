@@ -22,6 +22,20 @@ export const metadata: Metadata = {
   // site's pages are open-web artefacts: it says so to every crawler rather
   // than letting a draft be indexed under the record's name (build spec §3).
   ...(readStageManifest().drafts === "shown" ? { robots: { index: false, follow: false } } : {}),
+  openGraph: {
+    title: "About This KSoR Handbook",
+    description: "AI Assisted Knowledge System of Record.",
+    url: "https://handbook2-299.netlify.app/",
+    siteName: appTitle,
+    images: [{ url: "/images/ksor-og.png", width: 225, height: 225 }],
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "About This KSoR Handbook",
+    description: "AI Assisted Knowledge System of Record.",
+    images: ["/images/ksor-og.png"],
+  },
 };
 
 export default function Layout({ children }: LayoutProps<"/">) {

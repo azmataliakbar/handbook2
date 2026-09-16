@@ -32,3 +32,6 @@ system/site/public/sims/
 !.env.example
 
 .DS_Store
+
+# Local Netlify folder
+.netlify
