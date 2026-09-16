@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     description: "AI Assisted Knowledge System of Record.",
     url: "https://handbook2-299.netlify.app/",
     siteName: appTitle,
-    images: [{ url: "/images/ksor-og.png", width: 225, height: 225 }],
+    images: [{ url: "https://handbook2-299.netlify.app/images/ksor-og.png", width: 225, height: 225 }],
     type: "website",
   },
   twitter: {
     card: "summary",
     title: "About This KSoR Handbook",
     description: "AI Assisted Knowledge System of Record.",
-    images: ["/images/ksor-og.png"],
+    images: ["https://handbook2-299.netlify.app/images/ksor-og.png"],
   },
 };
 
