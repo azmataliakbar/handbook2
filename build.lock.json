@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:01d4378c08a00e453483c5e16cfcead057f68e41480dbaa7d72dcce30feb7c0c",
+  "build_id": "sha256:e62325533561363e3ec5a25c0397c36988939482fb2c7f345ee299309317314b",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "bb128d659e1532590d902dc26b15606247414ed3",
-  "dirty": false,
-  "as_of": "2026-09-16T17:10:03.771Z",
+  "dirty": true,
+  "as_of": "2026-09-16T17:28:12.862Z",
   "drafts": "hidden",
   "instance_sha256": "f0c06f0af01eecd4a947fd84bbf86b06201428b1d1567badfd964ffe3d302121",
   "policy_sha256": "7e36e3446c0d36c50b026b2a65c9d980462de841c60687ba1d53499e7b5a6dbd",
@@ -25,6 +25,17 @@
     }
   },
   "documents": [
+    {
+      "path": "about.md",
+      "sha256": "a97fec20a3a990910fcca5333fc61c3c3d3bf12c5c3b7a4bdd6a9318436da124",
+      "status": "stable",
+      "audience": [
+        "public"
+      ],
+      "admitted": [
+        "public"
+      ]
+    },
     {
       "path": "governance-ladder.md",
       "sha256": "c0dc26f31fcbb19128db8bd3e8aca068439814a784e889bf5c35827fc43479a0",
@@ -102,7 +113,7 @@
   "indexes": [
     {
       "path": "index.md",
-      "sha256": "ab7e5140ae563b64079b69c57196a39edc5c9607557b7a22e9462d5c760aa84a"
+      "sha256": "edf95304b167aa4b96b20524347d735b2fdaceb749175fd8548e08f1a1eadef3"
     },
     {
       "path": "surfaces/index.md",
@@ -112,8 +123,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "63c43ab6cc9ebcc7ce3c80732e35adb1c639310ae1e246037351e332515523f4",
-      "files": 9
+      "sha256": "38e9611fdab5fb79235dc8f0febbc312f1b6d8cb6f6835b098bc7ef29f8fadbc",
+      "files": 10
     }
   ]
 }
