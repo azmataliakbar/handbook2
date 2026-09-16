@@ -12,6 +12,6 @@ approval_authorities:
   # anything, and the trust tier stays `unverified`, which is the honest word
   # for "nobody has checked this". Delete this actor once the samples are gone
   # — nothing of yours should ever be approved by a tool.
-  - actors: [human:you, ksor-starter/0.0.60]
+  - actors: [human:azmataliakbar, ksor-starter/0.0.60]
 takedown_authorities:
-  actors: [human:you]
+  actors: [human:azmataliakbar]
