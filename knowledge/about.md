@@ -54,3 +54,13 @@ Knowledge here climbs a ladder of rigor:
 3. **Deprecated** — replaced, but kept for history with a pointer to its successor
 
 You can see the approval chain on every published document. No claim here travels without its evidence.
+
+## About This KSoR Handbook
+
+This is an AI Assisted Knowledge System of Record that demonstrates governed knowledge, human approval, and AI-assisted development using Codex and KSoR.
+
+**App Built By:** Azmat Ali
+
+**Built with:** Codex and KSoR
+
+**Authors:** Sir.Zia, Sir.Junaid, Maa'm. Wania
