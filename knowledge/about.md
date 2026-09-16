@@ -4,10 +4,10 @@ title: About
 description: Learn what this Knowledge System of Record is and how it works across multiple surfaces.
 status: stable
 order: 1
-generated: { by: "process:claude-haiku-4-5", at: "2026-09-16T17:30:00.000Z" }
+generated: { by: "process:claude-haiku-4-5", at: "2026-09-16T18:00:00.000Z" }
 ksor:
   audience: [public]
-  approval: { by: "human:azmataliakbar", at: "2026-09-16T17:30:00.000Z" }
+  approval: { by: "human:azmataliakbar", at: "2026-09-16T18:00:00.000Z" }
 ---
 
 ## What This Is
