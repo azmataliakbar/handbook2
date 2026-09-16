@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "system/site/out"
+
+[functions]
+  node_bundler = "esbuild"
