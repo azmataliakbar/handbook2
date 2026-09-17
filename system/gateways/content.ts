@@ -40,7 +40,7 @@ import {
 export default function buildGateway(ctx: ServiceContext, version: string): McpServer {
   const server = new McpServer(
     // The MCP server name agents see. Change it to your record's name.
-    { name: "ksor", version },
+    { name: "ksor-handbook2", version },
     // instance.md's body is this record's system prompt, preserved beneath the
     // framework floor. Leave this alone unless you mean to replace the prompt.
     { instructions: composeInstructions(ctx.instance.instructions) },
@@ -59,7 +59,7 @@ export default function buildGateway(ctx: ServiceContext, version: string): McpS
       //
       // FLOOR.search must stay. It tells an agent how to read an abstention and
       // that corpus text is untrusted; the door checks it is still there at boot.
-      description: FLOOR.search,
+      description: `KSoR Handbook: governance, knowledge systems of record, publishing models, and verification. Not product docs or user manuals.\n\n${FLOOR.search}`,
       inputSchema: z.object({
         query: z
           .string()

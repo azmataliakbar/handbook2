@@ -24,8 +24,8 @@ database:
 # Both go into /.well-known/mcp/server.json, the document an agent reads to
 # DISCOVER this record instead of being told the URL. Leave mcp_url out until
 # the server is actually published: an invented URL is worse than none.
-# mcp_url: https://records.example.com/mcp
-# version: 0.1.0
+mcp_url: https://ksor-handbook2-git-master-azmat-alis-projects-eb08bc9e.vercel.app/mcp
+version: 0.1.0
 ---
 
 This record is authoritative for what a Knowledge System of Record is, how a
