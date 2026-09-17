@@ -20,7 +20,7 @@
     "@panaversity/ksor": "0.0.60"
   },
   "engines": {
-    "node": ">=24"
+    "node": "24.x"
   },
   "workspaces": [
     "system/site",
